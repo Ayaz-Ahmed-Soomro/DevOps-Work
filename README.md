@@ -1,14 +1,14 @@
 # DevOps-Work
 
-## This Report contains my whole work related to this DevOps Journey 
-##Tools 
-##1- Linux
-##2- Git & Github
-##3- Docker
-##4- Jenkins
-##5- Kubernetes
-##6- Terraform 
-##7- Ansible
-##8- Projects
-##9- Extra Work
-##10-Research
+## This Repo contains my whole work related to this DevOps Journey 
+##Tools \n
+##1- Linux\n
+##2- Git & Github\n
+##3- Docker\n
+##4- Jenkins\n
+##5- Kubernetes\n
+##6- Terraform \n
+##7- Ansible\n
+##8- Projects\n
+##9- Extra Work\n
+##10-Research\n
