@@ -1,0 +1,7 @@
+version: '3.1'
+services:
+  web01:
+    container_name: nginx-01
+    image: nginx
+    ports:
+      - 80:80

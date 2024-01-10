@@ -1,0 +1,26 @@
+version: '3.1'
+services:
+  web01:
+    container_name: nginx-01
+    image: nginx
+    ports:
+      - 80:80
+    networks:
+      - my-net
+      
+  db:
+    container_name: mysql-db
+    image: mysql:latest
+    ports:
+      - 3306:3306
+    env_file:
+      - mypass.txt.txt
+    volumes:
+      - D:/DevOps From Lbistech Complete/4-Docker/Docker-compose Practices/mydata:/var/lib/mysql
+    networks:
+      - my-net
+
+
+networks:
+  my-net:
+
